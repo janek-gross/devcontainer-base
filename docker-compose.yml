@@ -1,1 +1,16 @@
-TODO
+networks:
+  eval-net:
+    driver: bridge
+
+
+services:
+  devcontainer:
+    build: .
+    container_name: devcontainer
+    volumes:
+      - ${DATA_PATH}:/home/devcontainer/data
+      - ./:/home/devcontainer/devcontainer-base
+    networks:
+      - eval-net
+    env_file:
+    - .env

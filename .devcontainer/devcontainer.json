@@ -1,1 +1,14 @@
-TODO
+{
+  "name": "Basic Devcontainer Template",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/home/devcontainer",  // Path to the workspace inside the container
+  "shutdownAction": "stopCompose",
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter"
+  ],
+    "settings": {
+      "python.pythonPath": "/home/devcontainer/.venv/bin/python"
+    }
+}
