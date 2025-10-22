@@ -7,20 +7,13 @@ It serves as a **template** for quickly bootstrapping reproducible and isolated 
 ---
 
 ## Structure
-.
-
-├── .env.example # Example environment variables file
-
-├── .gitignore # Ignore cache, environment, and temp files
-
-├── devcontainer.json # VS Code Dev Container configuration
-
-├── docker-compose.yml # Docker Compose configuration for multi-container setups
-
-├── Dockerfile # Base container definition
-
-├── requirements.txt # Python dependencies (empty by default)
-
+.  
+├── .env.example # Example environment variables file  
+├── .gitignore # Ignore cache, environment, and temp files  
+├── devcontainer.json # VS Code Dev Container configuration  
+├── docker-compose.yml # Docker Compose configuration for multi-container setups  
+├── Dockerfile # Base container definition  
+├── requirements.txt # Python dependencies (empty by default)  
 └── README.md # This file
 
 
