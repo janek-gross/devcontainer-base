@@ -1,4 +1,4 @@
-# 🐍 Basic Devcontainer Template
+# Basic Devcontainer Template
 
 This repository provides a minimal **Python development container setup** that can be used as a standalone environment or integrated into larger multi-container setups via `docker-compose`.
 
@@ -6,21 +6,28 @@ It serves as a **template** for quickly bootstrapping reproducible and isolated 
 
 ---
 
-## 📁 Structure
+## Structure
 .
+
 ├── .env.example # Example environment variables file
+
 ├── .gitignore # Ignore cache, environment, and temp files
+
 ├── devcontainer.json # VS Code Dev Container configuration
+
 ├── docker-compose.yml # Docker Compose configuration for multi-container setups
+
 ├── Dockerfile # Base container definition
+
 ├── requirements.txt # Python dependencies (empty by default)
+
 └── README.md # This file
 
 
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone this Repository
 
@@ -58,7 +65,7 @@ Data from your host system is available under:
 `/home/devcontainer/data`
 
 
-📋 License
+## License
 
 This template is provided under the MIT License.
 Feel free to modify and reuse it for your own projects.
