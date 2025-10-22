@@ -7,6 +7,7 @@ While Python virtual environments (venv) help manage package dependencies, they 
 Development containers (devcontainers) solve this problem by defining the entire development environment in code. Using Docker, they create a reproducible, portable workspace that behaves the same way on any system. Every dependency, system package, and configuration is version-controlled and can be rebuilt from scratch at any time.
 
 This repository provides a minimal, reusable devcontainer setup for Python projects. It serves as a template to quickly bootstrap consistent development environments, whether for individual projects or larger multi-service applications. By using this setup, you ensure that all developers — and your CI/CD pipelines — work inside the same predictable, reproducible environment.
+
 ---
 
 ## Structure
