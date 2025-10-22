@@ -1,9 +1,12 @@
 # Basic Devcontainer Template
 
-This repository provides a minimal **Python development container setup** that can be used as a standalone environment or integrated into larger multi-container setups via `docker-compose`.
+Developing consistent and reliable software environments can be difficult, especially when teams use different operating systems or local setups. Subtle differences between Windows, macOS, and Linux can lead to dependency issues, path mismatches, and the familiar “works on my machine” problem.
 
-It serves as a **template** for quickly bootstrapping reproducible and isolated Python development environments.
+While Python virtual environments (venv) help manage package dependencies, they only isolate Python libraries — not the underlying system environment. System-level tools, compilers, or libraries still need to be installed separately, and differences in OS configuration can still cause unexpected behavior.
 
+Development containers (devcontainers) solve this problem by defining the entire development environment in code. Using Docker, they create a reproducible, portable workspace that behaves the same way on any system. Every dependency, system package, and configuration is version-controlled and can be rebuilt from scratch at any time.
+
+This repository provides a minimal, reusable devcontainer setup for Python projects. It serves as a template to quickly bootstrap consistent development environments, whether for individual projects or larger multi-service applications. By using this setup, you ensure that all developers — and your CI/CD pipelines — work inside the same predictable, reproducible environment.
 ---
 
 ## Structure
